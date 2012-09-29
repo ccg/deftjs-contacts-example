@@ -4,4 +4,8 @@ Also, I'm exploring Jasmine for unit testing with this app.
 
 To access the app itself, load the index.html from a web server (loading
 from the file system may not work and is untested). To access the Jasmine
-tests, load SpecRunner.html.
+tests, load test.html.
+
+The index-offline.html and test-offline.html files assume that you have a copy
+of (or symlink to) Ext JS 4.x in the lib/ directory and point the script tags
+and css links to that instead of the Sencha CDN.
