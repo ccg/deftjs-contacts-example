@@ -1,0 +1,7 @@
+A simple Ext JS 4.x contact-list app to explore DeftJS.
+
+Also, I'm exploring Jasmine for unit testing with this app.
+
+To access the app itself, load the index.html from a web server (loading
+from the file system may not work and is untested). To access the Jasmine
+tests, load SpecRunner.html.
