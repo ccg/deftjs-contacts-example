@@ -1,0 +1,7 @@
+{
+    "success": true,
+    "data": [
+        {"id": "1", "firstName": "Sterling", "lastName": "Archer", "occupation": "ISIS agent"},
+        {"id": "2", "firstName": "Lana", "lastName": "Kane", "occupation": "ISIS agent"}
+    ]
+}
