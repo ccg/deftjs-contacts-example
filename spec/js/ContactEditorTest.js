@@ -41,16 +41,16 @@ describe('Contact Editor Window', function () {
         });
     });
 
-    describe('getForm() method', function () {
-        it('returns its Ext.form.Panel object', function () {
+    describe('ViewController#getForm', function () {
+        it('returns Ext.form.Panel object', function () {
             var form = viewController.getForm();
             expect(form).toBeDefined();
             expect(form instanceof Ext.form.Panel).toBeTruthy();
         });
     });
 
-    describe('getRecord() method', function () {
-        it('returns its App.model.Contact instance', function () {
+    describe('ViewController#getRecord', function () {
+        it('returns App.model.Contact instance', function () {
             var newContact = Ext.create('App.model.Contact'),
                 record;
             newContact.set({

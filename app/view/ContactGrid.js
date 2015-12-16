@@ -3,7 +3,7 @@ Ext.define('App.view.ContactGrid', {
     alias: 'widget.contactgrid',
     mixins: ['Deft.mixin.Injectable', 'Deft.mixin.Controllable'],
     inject: ['contactStore'],
-    controller: ['App.controller.ContactGridViewController'],
+    controller: 'App.controller.ContactGridViewController',
     //requires: ['App.store.Contacts'], //
 
     //store: Ext.data.StoreManager.lookup('App.store.Contacts'), //
